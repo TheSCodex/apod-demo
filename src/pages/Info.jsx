@@ -75,7 +75,7 @@ function Info() {
         </div>
       </section>
       {loading ? (
-        <div className="text-white flex flex-col items-center mt-14">
+        <div className="text-white flex h-screen flex-col items-center mt-14">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             baseProfile="basic"
@@ -132,7 +132,7 @@ function Info() {
             <p className="lg:text-right">{data.explanation}</p>
             <button
               onClick={handleBackHome}
-              className="absolute top-[7rem] lg:top-0 lg:right-0 right-[3rem] lg:left-[9.8rem]"
+              className="absolute lg:block hidden top-[7rem] lg:top-0 lg:right-0 right-[3rem] lg:left-[9.8rem]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
