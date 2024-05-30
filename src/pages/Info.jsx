@@ -65,7 +65,7 @@ function Info() {
   };
 
   return (
-    <div className="min:h-screen h-screen w-full bg-space p-6 lg:p-16">
+    <div className="min:h-screen lg:h-screen w-full bg-space p-6 lg:p-16">
       <section className="top-section w-full flex justify-between">
         <div>
           <img src={nasa} className="w-[90px]" />
